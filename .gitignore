@@ -28,3 +28,5 @@ node_modules
 **/*.pem
 canister_ids.json
 
+quill
+seed.txt
