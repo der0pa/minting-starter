@@ -31,8 +31,8 @@ echo -e $NOCOLOR
 # Edit these user variables as needed
 
 # "local" or "ic" (mainnet)
-#IC_NETWORK="ic"
-IC_NETWORK="local"
+IC_NETWORK="ic"
+#IC_NETWORK="local"
 # If local network, creates/imports/uses identity if it does exist.
 # If ic network (mainnet), make sure you manually import your existing
 # identity first, then provide the name of your imported identity here.
@@ -284,7 +284,7 @@ if [[ $IC_NETWORK == 'local' ]]; then
   echo -e $NOCOLOR
 
   # Note: The mainnet phone book canister is a well-known
-  # canister id: ngrpb-5qaaa-aaaaj-adz7a-cai
+  canister id: ngrpb-5qaaa-aaaaj-adz7a-cai
   # Only admins can add a phonebook entry.
 
   echo "Inserting phone book entry, mapping the collection id to the NFT canister id."
